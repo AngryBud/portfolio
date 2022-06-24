@@ -72,7 +72,7 @@ const Contact = ({open, setOpen}) => {
                             <div className='linkedin' style={{display:'flex', flexDirection:'row', alignItems:'center'}}>
                                 <BsLinkedin/> <p  style={{ fontSize:'1rem', color:'black', textDecoration:'none'}} onClick={()=>window.open(`https://www.linkedin.com/in/clement-notin-bb4b0312b/`)}>  Linkedin</p>
                             </div>
-                            <div style={{display:'flex', flexDirection:'row', alignItems:'center'}}>
+                            <div style={{display:'flex', flexDirection:'row', alignItems:'center', marginBottom:'3rem'}}>
                                 <BsFillTelephoneFill /> <p style={{ fontSize:'1rem', color:'black'}}>  06.07.34.27.11</p>
                             </div>
                             

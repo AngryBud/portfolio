@@ -26,7 +26,7 @@ const Home = ({open, setOpen}) => {
 
 
                 <div className="body-home">
-                    <div className="left-body-home" style={{display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
+                    <div className="left-body-home" style={{display:'flex', flexDirection:'column'}}>
                         <div className="title">
                             <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                                 <h1 style={{marginRight:'2rem'}}>Clément Notin</h1>
@@ -40,14 +40,14 @@ const Home = ({open, setOpen}) => {
                         </div>
                         <div className="logos">
                             <div style={{display:'flex', alignItems:'center'}}>
-                                <img src={react} alt='react' style={{width:'8rem'}}/>
-                                <img src={logo} alt='logo' style={{width:'20rem', height:'6rem'}}/>
+                                <img src={react} alt='react' style={{width:'30%'}}/>
+                                <img src={logo} alt='logo' style={{width:'40%'}}/>
                             
                             </div>
-                            <div style={{display:'flex'}}>
-                                <img src={cc} alt='c_c++' style={{height:'8rem', width:'8rem'}}/>
-                                <img src={git} alt='git' style={{height:'8rem', width:'8rem'}}/>
-                                <img src={mongo} alt='mongo' style={{height:'8rem', width:'8rem'}}/>
+                            <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+                                <img src={cc} alt='c_c++' style={{width:'20%'}}/>
+                                <img src={git} alt='git' style={{width:'20%'}}/>
+                                <img src={mongo} alt='mongo' style={{width:'20%'}}/>
                             </div>
                             {/* <img src={html_css} alt='html_css' style={{border:'2px solid blue', width:'14rem'}}/> */}
                         </div>
