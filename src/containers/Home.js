@@ -45,9 +45,9 @@ const Home = ({open, setOpen}) => {
                             
                             </div>
                             <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-                                <img src={cc} alt='c_c++' style={{width:'20%'}}/>
-                                <img src={git} alt='git' style={{width:'20%'}}/>
-                                <img src={mongo} alt='mongo' style={{width:'20%'}}/>
+                                <img src={cc} alt='c_c++' style={{width:'16%'}}/>
+                                <img src={git} alt='git' style={{width:'18%'}}/>
+                                <img src={mongo} alt='mongo' style={{width:'18%'}}/>
                             </div>
                             {/* <img src={html_css} alt='html_css' style={{border:'2px solid blue', width:'14rem'}}/> */}
                         </div>
