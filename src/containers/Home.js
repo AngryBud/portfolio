@@ -4,14 +4,14 @@ import home from "../assets/lottie-home.json";
 
 /////////LOGO//////////////
 import cc from '../assets/cc.png';
-import js from '../assets/js.png';
-import html_css from '../assets/html_css.png';
-import forest from '../assets/forest.jpeg';
+// import js from '../assets/js.png';
+// import html_css from '../assets/html_css.png';
+// import forest from '../assets/forest.jpeg';
 import git from '../assets/git.png';
 import logo from '../assets/logo.png';
 import react from '../assets/react.png';
 import mongo from '../assets/mongo.png';
-import redux from '../assets/redux.png';
+// import redux from '../assets/redux.png';
 import photo from '../assets/photo_circle.png';
 
 import './Home.css';
