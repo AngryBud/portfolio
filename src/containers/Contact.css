@@ -1,45 +1,81 @@
 .body-contact{
-    height:90vh;
+    height:89.3vh;
     width: 100vw;
     display: flex;
 }
 .right-body-contact{
     flex: 1;
-    border:2px solid blue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 1rem 8rem;
 }
-
+.lottie-contact{
+    flex:1;
+    color:'lightblue';
+}
 .mail{
-    height: 65%;
-    width: 65%;
-    border:2px solid red;
+    flex:4;
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
     text-align: center;
 }
 form > div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:1rem;
+    margin:0.5rem;
    
 }
 form > div > label{
-    margin:1rem;
+    margin:0.5rem;
 }
 form > div > input,
 form > div > textarea{
     padding: 0.5rem;
     min-width: 20rem;
+    max-width: 20rem;
+    
+}
+form > div > textarea{
+    min-height: 15rem;
+    max-height: 15rem;
 }
 form > div > button{
     width: 8rem;
     height: 2rem;
-    /* color: lightblue; */
-    
+    border: 2px solid white;
+    background-color: #4F88BE;
+    border-radius: 10px;
+    /* color: lightblue; */  
+}
+form > div > button:hover{
+    cursor: pointer;
+}
+
+.others{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    font-size: 2rem;
+    color: #4F88BE;
+}
+.linkedin :hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1024px){
+    .body-contact{
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lottie-contact{
+        /* flex:1; */
+    }
+    .right-body-contact{
+        /* flex:1; */
+    }
 }

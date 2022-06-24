@@ -9,19 +9,19 @@ const SideMenu = ({open, setOpen}) => {
     const navigate = useNavigate();
     return  open && <div className="side-menu">
                         <FadeIn>
-                        <div style={{opacity:'0.8'}}>
+                        <div className="all-cate" style={{opacity:'0.8',width:'27vw'}}>
                             <FadeIn>
                             <div className="cate-menu" onClick={()=>{setOpen(!open); navigate('/')}}>
                                 <HiHome  style={{fontSize:'2rem', marginRight:'2vw'}}/>
-                                <h1>Home</h1>
+                                <h1 id="title-side">Home</h1>
                             </div>
                             <div className="cate-menu" onClick={()=>{setOpen(!open); navigate('/projets')}}>
                                 <RiComputerFill style={{fontSize:'2rem', marginRight:'2vw'}}/>
-                                <h1>Projets</h1>
+                                <h1 id="title-side">Projets</h1>
                             </div>
                             <div className="cate-menu" onClick={()=>{setOpen(!open); navigate('/contact')}}>
                                 <MdContactSupport style={{fontSize:'2rem', marginRight:'2vw'}}/>
-                                <h1>Contact</h1>
+                                <h1 id="title-side">Contact</h1>
                             </div>
                             </FadeIn>
                         </div>

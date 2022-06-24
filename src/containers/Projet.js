@@ -30,28 +30,28 @@ const Projet= ({open, setOpen}) => {
                         <h1>Quelques travaux</h1>
                         <p>Voici quelques sites webs et applications mobiles, existants ou créés.</p>
                         <p>
-                            Qu'il s'agisse d'un annuaire pour les fans de l'univers Narvel, d'une reproduction du site Vinted en passant par l'application AirBnB, cela mettre les possibilitées de developpement en ReactJS ou React Native.
+                        Qu'il s'agisse d'un annuaire pour les fans de l'univers Marvel, d'une reproduction du site Vinted en passant par l'application AirBnB, avec chacun leur implémentation phare (inscription, upload de fichier, géolocalisation, gestion du panier , vente en ligne, ...) en ReactJS ou React Native.
                         </p>
                     </div>
                     <div className="right-body-proj" style={{flex:'2'}}>
-                        <img style={{heignt:'200px', width:'300px'}} src={deliveroo} alt="deliveroo"/>
-                        <img style={{heignt:'200px', width:'300px'}} src={mac} alt="mac"/>
-                        <img style={{heignt:'200px', width:'100px'}} src={gsm} alt="gsm"/>
+                        <img style={{ width:'30%'}} src={deliveroo} alt="deliveroo"/>
+                        <img style={{ width:'30%'}} src={mac} alt="mac"/>
+                        <img style={{ width:'20%'}} src={gsm} alt="gsm"/>
                     </div>
                 </div>
 
                 {/* VINTED */}
                 <div className="body-proj" style={{backgroundColor:'lightblue'}}>
-                    <div className="left-body-proj" style={{flex:'2', paddingLeft:'2vw'}}>
-                        <img style={{heignt:'200px', width:'230px'}} src={vinted_left} alt="vinted_left"/>
-                        <img style={{heignt:'200px', width:'230px'}} src={mac} alt="mac"/>
+                    <div className="right-body-proj" style={{flex:'2', paddingLeft:'2vw'}}>
+                        <img style={{width:'28%'}} src={vinted_left} alt="vinted_left"/>
+                        <img style={{width:'28%'}} src={mac} alt="mac"/>
                         {/* <img style={{heignt:'200px', widt5:'300px'}} src={vinted_front} alt="vinted_front"/> */}
-                        <img style={{heignt:'200px', width:'230px'}} src={vinted_right} alt="vinted_right"/>
+                        <img style={{width:'28%'}} src={vinted_right} alt="vinted_right"/>
                         </div>
-                    <div className="right-body-proj" style={{display:'flex', flexDirection:'column',
+                    <div className="left-body-proj" style={{display:'flex', flexDirection:'column',
                                                         flex:'1',padding:'2vh 2vw'}}>
-                        <h1>Mes principaux travaux</h1>
-                        <p>Voici differentes répliques de sites internet et applications mobile, existant ou creation.</p>
+                        <h1>Vinted</h1>
+                        <p>Réplique du site de vente en ligne de vêtements vintage. Inscris-toi , mets en vente ton article et recherches-en un nouveau !</p>
                     
                     </div>
                 </div>
@@ -62,13 +62,13 @@ const Projet= ({open, setOpen}) => {
                                                         flex:'1', padding:'2vh 2vw'}}>
                         
                         <h1>Airbnb</h1>
-                        <p>Voici quelques sites webs et applications mobiles, existants ou créés.</p>
+                        <p>Reproduction de l'application Airbnb.</p>
                         <p>
-                            Qu'il s'agisse d'un annuaire pour les fans de l'univers Narvel, d'une reproduction du site Vinted en passant par l'application AirBnB, cela mettre les possibilitées de developpement en ReactJS ou React Native.
+                        Connecte-toi, profite des photos et recherche un logement pour ton séjour.
                         </p>
                     </div>
                     <div className="right-body-proj" style={{flex:'2', display:'flex', justifyContent:'center'}}>
-                        <img style={{heignt:'400px', width:'500px'}} src={airbnb} alt="airbnb"/>
+                        <img style={{width:'60%'}} src={airbnb} alt="airbnb"/>
                         {/* <img style={{heignt:'200px', width:'300px'}} src={mac} alt="mac"/>
                         <img style={{heignt:'200px', width:'100px'}} src={gsm} alt="gsm"/> */}
                     </div>
@@ -76,16 +76,17 @@ const Projet= ({open, setOpen}) => {
 
                 {/* PROJET MARVEL */}
                 <div className="body-proj" style={{backgroundColor:'lightblue'}}>
-                    <div className="left-body-proj" style={{flex:'2', paddingLeft:'2vw'}}>
-                        <img style={{heignt:'230px', width:'230px'}} src={marvel1} alt="marvel1"/>
-                        <img style={{heignt:'230px', width:'230px'}} src={marvel2} alt="marvel2"/>
-                        <img style={{heignt:'230px', width:'230px'}} src={marvel3} alt="marvel3"/>
+                    <div className="right-body-proj" style={{flex:'2', paddingLeft:'2vw'}}>
+                        <img style={{width:'25%'}} src={marvel1} alt="marvel1"/>
+                        <img style={{width:'25%'}} src={marvel2} alt="marvel2"/>
+                        <img style={{width:'25%'}} src={marvel3} alt="marvel3"/>
                         </div>
-                    <div className="right-body-proj" style={{display:'flex', flexDirection:'column',
+                    <div className="left-body-proj" style={{display:'flex', flexDirection:'column',
                                                         flex:'1',padding:'2vh 2vw'}}>
-                        <h1>Mes principaux travaux</h1>
-                        <p>Voici differentes répliques de sites internet et applications mobile, existant ou creation.</p>
-                    
+                        <h1>Fan de Comics ?</h1>
+                        <p>Plongez dans l'annuaire Marvel et découvrez ou redécouvrez vos personnages et comics préférés.</p>
+                        <p>Retrouvez chacun d'entre eux, chacune de leurs apparations.</p>
+                        <p>Rejoins les fans Marvel et ajoutez l'un d'eux en favoris pour le retrouver en un clic !</p>
                     </div>
                 </div>
 
@@ -94,15 +95,17 @@ const Projet= ({open, setOpen}) => {
                     <div className="left-body-proj" style={{display:'flex', flexDirection:'column',
                                                         flex:'1', padding:'2vh 2vw'}}>
                         
-                        <h1>Airbnb</h1>
-                        <p>Voici quelques sites webs et applications mobiles, existants ou créés.</p>
+                        <h1>Theatre d'ombres</h1>
+                        <p>Creation d'une application pour mettre en avant la lecture partagée parent / enfant.</p>
                         <p>
-                            Qu'il s'agisse d'un annuaire pour les fans de l'univers Narvel, d'une reproduction du site Vinted en passant par l'application AirBnB, cela mettre les possibilitées de developpement en ReactJS ou React Native.
+                        Ajoutez le conte que vous souhaitez lire dans la librairie d'œuvre présentée.
+                        Placer le smartphone au fond du théâtre .
                         </p>
+                        <p> Lisez le conte, passer les scènes en actionnant le bras mécanique aimanté devant le téléphone ou par commande vocale.</p>
                     </div>
                     <div className="right-body-proj" style={{flex:'2',height:'300px', display:'flex', justifyContent:'center'}}>
-                        <img style={{heignt:'300px', width:'300px'}} src={theatre} alt="theatre"/>
-                        <img style={{heignt:'50%', width:'300px'}} src={theatre2} alt="theatre2"/>
+                        <img style={{width:'30%'}} src={theatre} alt="theatre"/>
+                        <img style={{width:'30%'}} src={theatre2} alt="theatre2"/>
                     </div>
                 </div>
             </div>;

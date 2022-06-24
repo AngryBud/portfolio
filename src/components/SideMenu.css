@@ -1,14 +1,14 @@
 .side-menu{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-family:'Poppins', sans-serif;
     position: fixed;
     top:10vh;
     left:0;
     /* z-index: 1001; */
     height: 50vh;
-    width: 27vw;
+    width: 27%;
     background-color: lightblue;
     border-bottom-right-radius: 10px;
     border: 2px solid white;
@@ -17,8 +17,9 @@
 .cate-menu{
     display:flex;
     height: calc(49vh / 3);
-    width: 27vw;
-    justify-content: center;
+    /* width: 92%; */
+    justify-content: flex-start;
+    padding-left: 2rem;
     align-items: center;  
     color: rgb(64, 63, 63);
     border-bottom: 2px solid white;
@@ -28,3 +29,23 @@
     color: black;
     background-color: rgb(78, 192, 231);
 }   
+
+@media (max-width: 1024px){
+    .all-cate{
+        width:27vw;
+        /* display: flex; */
+    }
+    #title-side{
+        display: none;
+    }
+    .cate-menu {
+        display:flex;
+        flex:1;
+        justify-content: center;
+    }
+    .side-menu{
+        display:flex;
+        /* flex:1; */
+        justify-content: center;
+    }
+}
