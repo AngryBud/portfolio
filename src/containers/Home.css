@@ -7,7 +7,7 @@
     padding-left: 2rem;
     display: flex;
     justify-content: center;
-    border:2px solid blue;
+    /* border:2px solid blue; */
 }
 .right-body-home{
     flex:1;
