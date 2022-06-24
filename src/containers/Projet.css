@@ -1,0 +1,24 @@
+.body-proj{
+    height:70vh;
+    display: flex;
+    margin: 8vh 5vw;
+    align-items: center;
+    /* padding: 0 5vw; */
+    /* justify-content: space-between; */
+}
+.left-body-proj{
+    /* flex:1; */
+    /* margin-top: 10vh; */
+    /* border:2px solid blue; */
+    /* padding: 4vh 4vw; */
+    /* margin-top: 10vh; */
+    /* align-items: center; */
+}
+.right-body-proj{
+    /* display: flex; */
+    /* object-fit: contain; */
+    /* flex:1; */
+    /* padding: 8vh 4vw; */
+    /* margin-top: 10vh; */
+    /* border:2px solid red; */
+}

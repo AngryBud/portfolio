@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import Home from "./containers/Home.js";
+import Projet from "./containers/Projet.js";
+import Contact from "./containers/Contact.js";
+import NotFound from "./containers/NotFound.js";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import { useState } from "react";
 import './App.css';
 
 function App() {
+  const [open, setOpen] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Routes>
+            <Route path="/" element={<Home open={open} setOpen={setOpen}/>}/>
+            <Route path="/projets" element={<Projet open={open} setOpen={setOpen}/>}/>
+            <Route path="/contact" element={<Contact open={open} setOpen={setOpen}/>}/>
+            <Route path="/*" element={<NotFound />}/>
+        </Routes>
+      
+    </Router>
+    
   );
 }
 

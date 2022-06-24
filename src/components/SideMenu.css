@@ -1,0 +1,30 @@
+.side-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Poppins', sans-serif;
+    position: fixed;
+    top:10vh;
+    left:0;
+    /* z-index: 1001; */
+    height: 50vh;
+    width: 27vw;
+    background-color: lightblue;
+    border-bottom-right-radius: 10px;
+    border: 2px solid white;
+}
+
+.cate-menu{
+    display:flex;
+    height: calc(49vh / 3);
+    width: 27vw;
+    justify-content: center;
+    align-items: center;  
+    color: rgb(64, 63, 63);
+    border-bottom: 2px solid white;
+}
+.cate-menu:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(78, 192, 231);
+}   

@@ -1,0 +1,45 @@
+.body-contact{
+    height:90vh;
+    width: 100vw;
+    display: flex;
+}
+.right-body-contact{
+    flex: 1;
+    border:2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail{
+    height: 65%;
+    width: 65%;
+    border:2px solid red;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+form > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem;
+   
+}
+form > div > label{
+    margin:1rem;
+}
+form > div > input,
+form > div > textarea{
+    padding: 0.5rem;
+    min-width: 20rem;
+}
+form > div > button{
+    width: 8rem;
+    height: 2rem;
+    /* color: lightblue; */
+    
+}

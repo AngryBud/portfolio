@@ -5,7 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('./assets/black-board.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
+
+@font-face {
+  font-family: "chalk";
+  src: local("chalk"),
+   url("./assets/chalkboard.ttf") format("truetype");
+  font-weight: bold;
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
