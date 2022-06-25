@@ -77,9 +77,9 @@ const Projet= ({open, setOpen}) => {
                 {/* PROJET MARVEL */}
                 <div className="body-proj" style={{backgroundColor:'lightblue'}}>
                     <div className="right-body-proj" style={{flex:'2', paddingLeft:'2vw'}}>
-                        <img style={{width:'25%'}} src={marvel1} alt="marvel1"/>
-                        <img style={{width:'25%'}} src={marvel2} alt="marvel2"/>
-                        <img style={{width:'25%'}} src={marvel3} alt="marvel3"/>
+                        <img style={{width:'28%'}} src={marvel1} alt="marvel1"/>
+                        <img style={{width:'28%'}} src={marvel2} alt="marvel2"/>
+                        <img style={{width:'28%'}} src={marvel3} alt="marvel3"/>
                         </div>
                     <div className="left-body-proj" style={{display:'flex', flexDirection:'column',
                                                         flex:'1',padding:'2vh 2vw'}}>
@@ -103,9 +103,9 @@ const Projet= ({open, setOpen}) => {
                         </p>
                         <p> Lisez le conte, passer les scènes en actionnant le bras mécanique aimanté devant le téléphone ou par commande vocale.</p>
                     </div>
-                    <div className="right-body-proj" style={{flex:'2',height:'300px', display:'flex', justifyContent:'center'}}>
-                        <img style={{width:'30%'}} src={theatre} alt="theatre"/>
-                        <img style={{width:'30%'}} src={theatre2} alt="theatre2"/>
+                    <div className="right-body-proj" style={{flex:'2',height:'300px', display:'flex', justifyContent:'center',alignItems:'center'}}>
+                        <img style={{width:'40%'}} src={theatre} alt="theatre"/>
+                        <img style={{height:'50%'}} src={theatre2} alt="theatre2"/>
                     </div>
                 </div>
             </div>;

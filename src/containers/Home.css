@@ -39,6 +39,7 @@ img{
         height: 85vh;
         display: flex;
         flex-direction: column;
+        margin-right: 3rem;
         /* margin-right: 2rem; */
     }
     /* .logos{
@@ -55,7 +56,7 @@ img{
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-right: 2rem;
+        margin-right: 3rem;
     }
     /* .logos{
         width: 50%;

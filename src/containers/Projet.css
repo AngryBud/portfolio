@@ -19,20 +19,22 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 4rem;
+        padding-top: 2rem;
     }
     img{
         height: 50%;
         width: 20%;
     }
     .left-body-proj{
-        margin-top: 4rem;
+        margin-top: 2rem;
         display: flex;
         margin-bottom: 2rem;
         justify-content: center;
     }
     .right-body-proj{
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (max-width: 860px){
@@ -42,6 +44,8 @@
     }
     .right-body-proj{
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     img{
         height: 50%;
