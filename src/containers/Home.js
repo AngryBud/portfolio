@@ -14,7 +14,7 @@ import mongo from '../assets/mongo.png';
 // import redux from '../assets/redux.png';
 import photo from '../assets/photo_circle.png';
 import { TbFileSearch } from "react-icons/tb";
-import cvpic from '../assets/cv.jpg';
+import cvpic from '../assets/cv.png';
 
 import './Home.css';
 import { useState } from "react";
@@ -61,7 +61,7 @@ const Home = ({open, setOpen}) => {
                         
                         
                             <><Lottie animationData={home} loop={true} style={{height:'80vh'}}/>
-                                <button style={{display:'flex',alignItems:'center',justifyContent:'center', width:'40%', height:'8%',fontSize:'1.5rem',
+                                <button style={{marginBottom:'2rem',display:'flex',alignItems:'center',justifyContent:'center', width:'40%', height:'8%',fontSize:'1.5rem',
                                         border:'2px solid lightblue', color:'lightblue', backgroundColor:'white', borderRadius:'10px'}}
                                                 onClick={()=>setCv(true)}><TbFileSearch></TbFileSearch>CV</button>
                         </>
