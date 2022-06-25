@@ -13,19 +13,24 @@ import react from '../assets/react.png';
 import mongo from '../assets/mongo.png';
 // import redux from '../assets/redux.png';
 import photo from '../assets/photo_circle.png';
+import { TbFileSearch } from "react-icons/tb";
+import cvpic from '../assets/cv.jpg';
 
 import './Home.css';
+import { useState } from "react";
 // import {useNavigate} from "react-router-dom";
 
 const Home = ({open, setOpen}) => {
-
+    const [cv, setCv] = useState(false);
     return  <div className="App">
                 <div>
-                    <Header open={open} setOpen={setOpen}/>
+                    <Header open={open} setOpen={setOpen} cv={cv} setCv={setCv}/>
                 </div>
 
 
-                <div className="body-home">
+                
+                {cv ? <div className="cv-box" style={{width:'100vw', height:'80vh', display:'flex'}}><img id='cv' src={cvpic} alt='cv'style={{flex:'1', objectFit:'contain'}} onClick={()=>cv && setCv(!cv)}/> </div> : 
+                <div className="body-home" onClick={()=>cv && setCv(!cv)}>
                     <div className="left-body-home" style={{display:'flex', flexDirection:'column'}}>
                         <div className="title">
                             <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
@@ -52,10 +57,19 @@ const Home = ({open, setOpen}) => {
                             {/* <img src={html_css} alt='html_css' style={{border:'2px solid blue', width:'14rem'}}/> */}
                         </div>
                     </div>
-                    <div className="right-body-home">
-                        <Lottie animationData={home} loop={true} style={{height:'80vh'}}/>
-                    </div>
-                </div>
+                    <div className="right-body-home" >
+                        
+                        
+                            <><Lottie animationData={home} loop={true} style={{height:'80vh'}}/>
+                                <button style={{display:'flex',alignItems:'center',justifyContent:'center', width:'40%', height:'8%',fontSize:'1.5rem',
+                                        border:'2px solid lightblue', color:'lightblue', backgroundColor:'white', borderRadius:'10px'}}
+                                                onClick={()=>setCv(true)}><TbFileSearch></TbFileSearch>CV</button>
+                        </>
+                        
+                        </div>
+                        
+                    </div>}
+                
             </div>
 }
 

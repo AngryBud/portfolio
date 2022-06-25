@@ -15,6 +15,7 @@ import marvel3 from '../assets/marvel3.png';
 
 import theatre from '../assets/theatre.png';
 import theatre2 from '../assets/theatre2.png';
+import coupe from '../assets/coupe.png';
 
 
 const Projet= ({open, setOpen}) => {
@@ -102,6 +103,7 @@ const Projet= ({open, setOpen}) => {
                         Placer le smartphone au fond du théâtre .
                         </p>
                         <p> Lisez le conte, passer les scènes en actionnant le bras mécanique aimanté devant le téléphone ou par commande vocale.</p>
+                        <img src={coupe} alt='coupe' style={{width:'100%'}}/>
                     </div>
                     <div className="right-body-proj" style={{flex:'2',height:'300px', display:'flex', justifyContent:'center',alignItems:'center'}}>
                         <img style={{width:'40%'}} src={theatre} alt="theatre"/>
