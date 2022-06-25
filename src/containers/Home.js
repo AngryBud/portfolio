@@ -14,7 +14,8 @@ import mongo from '../assets/mongo.png';
 // import redux from '../assets/redux.png';
 import photo from '../assets/photo_circle.png';
 import { TbFileSearch } from "react-icons/tb";
-import cvpic from '../assets/cv.png';
+// import cvpic from '../assets/cv.png';
+import cvpic from '../assets/lastCV.jpg';
 
 import './Home.css';
 import { useState } from "react";
