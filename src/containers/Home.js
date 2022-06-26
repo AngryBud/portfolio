@@ -31,7 +31,7 @@ const Home = ({open, setOpen}) => {
 
                 
                 {cv ? <div className="cv-box" style={{width:'100vw', height:'80vh', display:'flex'}}><img id='cv' src={cvpic} alt='cv'style={{flex:'1', objectFit:'contain'}} onClick={()=>cv && setCv(!cv)}/> </div> : 
-                <div className="body-home" onClick={()=>cv && setCv(!cv)}>
+                <div className="body-home" onClick={()=>{cv && setCv(!cv); setOpen(false)}} >
                     <div className="left-body-home" style={{display:'flex', flexDirection:'column'}}>
                         <div className="title">
                             <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>

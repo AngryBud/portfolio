@@ -24,7 +24,7 @@ const Projet= ({open, setOpen}) => {
                 <Header open={open} setOpen={setOpen}/>
 
                 {/* PRESENTATION PROJET */}
-                <div className="body-proj" style={{border:'2px solid lightblue'}}>
+                <div className="body-proj" style={{border:'2px solid lightblue'}} onClick={()=>{setOpen(false)}}>
                     <div className="left-body-proj" style={{display:'flex', flexDirection:'column',
                                                         flex:'1', padding:'2vh 2vw'}}>
                         

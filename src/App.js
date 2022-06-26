@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<Home open={open} setOpen={setOpen}/>}/>
             <Route path="/projets" element={<Projet open={open} setOpen={setOpen}/>}/>
             <Route path="/contact" element={<Contact open={open} setOpen={setOpen}/>}/>
-            <Route path="/*" element={<NotFound />}/>
+            <Route path="/*" element={<NotFound open={open} setOpen={setOpen}/>}/>
         </Routes>
       
     </Router>

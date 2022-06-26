@@ -40,7 +40,7 @@ const Contact = ({open, setOpen}) => {
                     <Header open={open} setOpen={setOpen}/>
                 </div>
                 <ToastContainer position='bottom-right' limit={1}/>
-                <div className="body-contact" style={{backgroundColor:'lightblue'}}>
+                <div className="body-contact" style={{backgroundColor:'lightblue'}} onClick={()=>setOpen(false)}>
                     <div className='lottie-contact'>
                         <Lottie animationData={contact} loop={true} />
                     </div>
