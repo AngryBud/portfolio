@@ -4,6 +4,7 @@ import Header from "../components/Header";
 // import SideMenu from "../components/SideMenu";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import '../App.css'
 
 const NotFound = ({open, setOpen}) => {
     const [click, setClick] = useState(0);

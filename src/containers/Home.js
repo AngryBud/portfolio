@@ -62,7 +62,7 @@ const Home = ({open, setOpen}) => {
                         
                         
                             <><Lottie animationData={home} loop={true} style={{height:'80vh'}}/>
-                                <button style={{marginBottom:'2rem',display:'flex',alignItems:'center',justifyContent:'center', width:'40%', height:'8%',fontSize:'1.5rem',
+                                <button id='cv-button' style={{marginBottom:'2rem',display:'flex',alignItems:'center',justifyContent:'center', width:'40%', height:'8%',fontSize:'1.5rem',
                                         border:'2px solid lightblue', color:'lightblue', backgroundColor:'white', borderRadius:'10px'}}
                                                 onClick={()=>setCv(true)}><TbFileSearch></TbFileSearch>CV</button>
                         </>
