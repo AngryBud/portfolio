@@ -37,7 +37,7 @@ const Contact = ({open, setOpen}) => {
     }
     return  <div style={{backgroundColor:'lightblue'}}>
                 {/* <div> */}
-                    <Header open={open} setOpen={setOpen}/>
+                <Header open={open} setOpen={setOpen}/>
                 {/* </div> */}
                 <ToastContainer position='bottom-right' limit={1}/>
                 <div className="body-contact" style={{backgroundColor:'lightblue'}} onClick={()=>setOpen(false)}>
