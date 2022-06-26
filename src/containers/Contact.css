@@ -14,10 +14,12 @@
     color:'lightblue';
 }
 .mail{
-    flex:4;
+    /* flex:1; */
     display: flex;
     flex-direction: column;
     text-align: center;
+    /* border:2px solid red; */
+    
 }
 form > div{
     display: flex;
@@ -37,8 +39,8 @@ form > div > textarea{
     
 }
 form > div > textarea{
-    min-height: 15rem;
-    max-height: 15rem;
+    min-height: 12rem;
+    max-height: 12rem;
 }
 form > div > button{
     width: 8rem;
@@ -55,11 +57,13 @@ form > div > button:hover{
 .others{
     display: flex;
     flex:1;
+    height:4rem;
     flex-direction: column;
     justify-content: space-between;
     align-items: space-between;
     font-size: 2rem;
     color: #4F88BE;
+    /* border:2px solid blue; */
 }
 .linkedin :hover {
     cursor: pointer;
@@ -67,7 +71,9 @@ form > div > button:hover{
 
 @media (max-width: 1024px){
     .body-contact{
+        /* flex:1; */
         height:100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -76,7 +82,7 @@ form > div > button:hover{
 form > div > textarea{
     padding: 0.5rem;
     min-width: 50%;
-    max-width: 50%;
+    max-width: 20%;
     
 }
 form > div > textarea{

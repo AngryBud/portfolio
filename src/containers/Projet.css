@@ -38,6 +38,13 @@
     }
 }
 @media (max-width: 860px){
+    .body-proj{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+    }
     .left-body-proj{
         display: flex;
         justify-content: center;

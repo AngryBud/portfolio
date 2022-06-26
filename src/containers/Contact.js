@@ -35,7 +35,7 @@ const Contact = ({open, setOpen}) => {
             )
         }
     }
-    return  <div>
+    return  <div style={{backgroundColor:'lightblue'}}>
                 {/* <div> */}
                     <Header open={open} setOpen={setOpen}/>
                 {/* </div> */}
@@ -53,7 +53,7 @@ const Contact = ({open, setOpen}) => {
                                 <input id='email' type='text' onChange={(e)=>setEmail(e.target.value)}></input>
                             </div>
                             <div>
-                                <label htmlFor='subject'>Subject</label>
+                                <label htmlFor='subject'>Objet</label>
                                 <input id='subject' type='text' onChange={(e)=>setSubject(e.target.value)}></input>
                             </div>
                             <div>
