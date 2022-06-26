@@ -24,9 +24,9 @@ import { useState } from "react";
 const Home = ({open, setOpen}) => {
     const [cv, setCv] = useState(false);
     return  <div className="App">
-                <div>
+                {/* <div> */}
                     <Header open={open} setOpen={setOpen} cv={cv} setCv={setCv}/>
-                </div>
+                {/* </div> */}
 
 
                 
