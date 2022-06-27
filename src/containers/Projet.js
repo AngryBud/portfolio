@@ -16,6 +16,7 @@ import marvel3 from '../assets/marvel3.png';
 import theatre from '../assets/theatre.png';
 import theatre2 from '../assets/theatre2.png';
 import coupe from '../assets/coupe.png';
+import ScrollToTop from "react-scroll-to-top";
 
 
 const Projet= ({open, setOpen}) => {
@@ -24,6 +25,7 @@ const Projet= ({open, setOpen}) => {
                 <Header open={open} setOpen={setOpen}/>
 
                 {/* PRESENTATION PROJET */}
+                <ScrollToTop/>
                 <div className="body-proj" style={{border:'2px solid lightblue'}} onClick={()=>{setOpen(false)}}>
                     <div className="left-body-proj" style={{display:'flex', flexDirection:'column',
                                                         flex:'1', padding:'2vh 2vw'}}>

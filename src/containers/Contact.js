@@ -3,6 +3,7 @@ import Lottie from "lottie-react";
 // import space1 from "../assets/spaceman-contact.json";
 import contact from "../assets/lottie-contact.json";
 import { BsLinkedin,BsFillTelephoneFill } from "react-icons/bs";
+import ScrollToTop from "react-scroll-to-top";
 
 import { useState } from 'react';
 import {toast, ToastContainer} from 'react-toastify';
@@ -40,6 +41,7 @@ const Contact = ({open, setOpen}) => {
                 <Header open={open} setOpen={setOpen}/>
                 {/* </div> */}
                 <ToastContainer position='bottom-right' limit={1}/>
+                <ScrollToTop/>
                 <div className="body-contact" style={{backgroundColor:'lightblue'}} onClick={()=>setOpen(false)}>
                     <div className='lottie-contact'>
                         <Lottie animationData={contact} loop={true} />
