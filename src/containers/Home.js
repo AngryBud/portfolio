@@ -42,7 +42,7 @@ const Home = ({open, setOpen}) => {
                             
                             <p>Développeur React passionné en recherche de stage de 4 à 6 mois.</p>
                             <p>J'ai appris la programmation en C à l'école 42 qui m'a permis d'être à l'aise avec l'algorithmie, puis React Js et React Native en Bootcamp au Reacteur.</p>
-                            <p>Je cherche à ce jour une entreprise pour débuter un stage en React. Je m'intègre facilement dans une équipe et suis très volontaire.</p>
+                            <p>Je cherche à ce jour une entreprise pour débuter un stage comme Développeur Web. Je m'intègre facilement dans une équipe et suis très volontaire.</p>
                             <p>Informations disponibles à la page Contact</p>
                         </div>
                         <div className="logos">

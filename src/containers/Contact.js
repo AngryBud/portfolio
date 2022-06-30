@@ -30,9 +30,9 @@ const Contact = ({open, setOpen}) => {
             })
             setLoading(false);
             toast.success(data.message);
-            setEmail('');
-            setSubject('');
-            setMessage('');
+            // setEmail('');
+            // setSubject('');
+            // setMessage('');
         }catch(error){
             setLoading(false);
             toast.error("error"
