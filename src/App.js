@@ -3,6 +3,7 @@ import Projet from "./containers/Projet.js";
 import Contact from "./containers/Contact.js";
 import NotFound from "./containers/NotFound.js";
 import ScrollToTop from "./components/ScrollToTop.js";
+import Maintenance from "./containers/Maintenance.js";
 
 import {
   BrowserRouter as Router,
@@ -13,7 +14,13 @@ import { useState } from "react";
 import './App.css';
 
 function App() {
+  const maintenanceMode = true;
   const [open, setOpen] = useState(false);
+
+  if (maintenanceMode) {
+    return <Maintenance />;
+  }
+  
   return (
     <Router>
       <ScrollToTop/>
